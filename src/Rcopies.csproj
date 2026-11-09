@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup><OutputType>WinExe</OutputType><TargetFramework>net10.0-windows</TargetFramework><UseWindowsForms>true</UseWindowsForms><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><ApplicationManifest>app.manifest</ApplicationManifest><AssemblyName>Rcopies</AssemblyName><NuGetAudit>false</NuGetAudit></PropertyGroup>
+ <PropertyGroup><ApplicationIcon>Assets/Rcopies.ico</ApplicationIcon></PropertyGroup>
+ <ItemGroup><EmbeddedResource Include="Assets/product.png" LogicalName="Rcopies.Product.png"/><EmbeddedResource Include="Assets/watermark.png" LogicalName="Rcopies.Watermark.png"/><EmbeddedResource Include="Assets/Rcopies.ico" LogicalName="Rcopies.App.ico"/></ItemGroup>
+<ItemGroup><EmbeddedResource Include="Assets/license-public.pem" LogicalName="Rcopies.LicensePublic.pem"/></ItemGroup></Project>

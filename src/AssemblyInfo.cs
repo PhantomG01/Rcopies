@@ -1,0 +1,5 @@
+[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("LiteTests")]
+[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("FeatureTests")]
+[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("InputTests")]
+[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("ComparisonTests")]
+[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("AutomaticTests")]
